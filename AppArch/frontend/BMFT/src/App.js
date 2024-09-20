@@ -22,6 +22,8 @@ import Mobilenav from './components/GeneralFeatures/Mobilenav';
 import Fireman from './components/WWDFeatures/Fireman';
 import Buildingstewards from './components/WWDFeatures/Buildingstewards';
 import Patrols from './components/WWDFeatures/Patrols';
+import Scientificresearch from './components/WWDFeatures/Scientificresearch';
+import Developers from './components/WWDFeatures/Developers';
 
 function App() {
   const [isNavbarVisible, setNavbarVisible] = useState(true);
@@ -130,11 +132,25 @@ function App() {
           <Patrols></Patrols>
           <Footer/>
           </Route>
+
+          <Route path = "/scientificresearch">
+          <Nav isVisible={isNavbarVisible} />
+          <Mobilenav isVisible={isNavbarVisible} />
+          <Scientificresearch></Scientificresearch>
+          <Footer/>
+          </Route>
           
           <Route path = "/Ourteam">
           <Nav isVisible={isNavbarVisible} />
           <Mobilenav></Mobilenav>
           <Ourteam></Ourteam>
+          <Footer/>
+          </Route>
+
+          <Route path = "/developers">
+          <Nav isVisible={isNavbarVisible} />
+          <Mobilenav></Mobilenav>
+          <Developers></Developers>
           <Footer/>
           </Route>
 
