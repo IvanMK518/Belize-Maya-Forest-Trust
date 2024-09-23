@@ -45,7 +45,7 @@ This component makes an API call to the backend to pull any relevant news articl
 
 ## Setting.js
 
-This component handles user deletion and password changes for those with admin access. Please refer to each specific subcomponent for functional changes [delete](https://github.com/IvanMK518/Belize-Maya-Forest-Trust/blob/main/AppArch/frontend/BMFT/src/components/API/DeleteUser.js) [password change](https://github.com/IvanMK518/Belize-Maya-Forest-Trust/blob/main/AppArch/frontend/BMFT/src/components/API/UpdatePassword.js) Beware: Once you delete the account, there is no recovery. You must be logged in to access this.
+This component handles user deletion and password changes for those with admin access. Please refer to each specific subcomponent for functional changes [delete](https://github.com/IvanMK518/Belize-Maya-Forest-Trust/blob/main/AppArch/frontend/BMFT/src/components/API/DeleteUser.js) and [password change](https://github.com/IvanMK518/Belize-Maya-Forest-Trust/blob/main/AppArch/frontend/BMFT/src/components/API/UpdatePassword.js) Beware: Once you delete the account, there is no recovery. You must be logged in to access this.
 
 ## NewsPages.js
 
