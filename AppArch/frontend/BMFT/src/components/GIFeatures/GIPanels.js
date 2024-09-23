@@ -8,13 +8,14 @@ import IGvol from '../assets/IGvol.jpg';
 import IGfor from '../assets/IGfor.jpg';
 import IGBird3 from '../assets/IGBird3.JPG';
 import IGDeer from '../assets/IGDeer.JPG';
+import rangerad from "../assets/ranger ad.png"
 
 const panelsData = [
   {
     title: 'Donate to Specific Programs',
     description: 'Support our various programs and initiatives. Click to learn more and donate.',
     imageUrl: IGBird,
-    link: '/donate',
+    link: '/inprog',
   },
   {
     title: 'Apply to Become a Community Steward',
@@ -23,18 +24,21 @@ const panelsData = [
     link: '/apply',
   },
   {
-    title: 'Volunteer/Intern Opportunities',
+    title: 'Staff/Volunteer Opportunities',
     description: 'Discover ways to volunteer or intern with us. Check out guidelines and apply.',
     imageUrl: IGvol,
-    link: '/volunteer',
+    link: rangerad,  
   },
+  /*
   {
     title: 'Visitation Guidelines',
     description: 'Find out how you can visit us, including guidelines and application forms.',
     imageUrl: IGfor,
     link: '/visit',
   },
+  */
 ];
+
 
 const GIPanels = () => {
   return (

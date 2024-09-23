@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from '../styles/WhatWeDo.module.css';
-import WWDtop from '../assets/WWDtop.jpg'; // Ensure correct path to the image
+import WWDtop from '../assets/WWDtop.jpg'; 
 import WWDPanels3 from '../WWDFeatures/WWDPanels3';
 import WWDInfo from '../WWDFeatures/WWDInfo';
 import WWDPanel2 from '../WWDFeatures/WWDPanel2';
 import Conservation from '../WWDFeatures/Conservation';
+
 
 const WhatWeDoPage = () => {
   return (
@@ -16,17 +17,13 @@ const WhatWeDoPage = () => {
         </div>
         </header>
         
-
-      <section className={`${styles.section} ${styles.animateRollIn}`}>
-        <h2 className={styles.sectionTitle}>Our Mission</h2>
-        <div className={styles.sectionContent}>
-          <p className={styles.sectionContentParagraph}>
-            Demonstrating a globally recognized, locally relevant model of healthy, biodiverse forest protected for and by all Belizeans.
-          </p>
-          <header className={styles.banner}>About the BMF</header>
-          <WWDInfo />
-        </div>
-      </section>
+        <section className={styles.aboutSection}>
+      <h2>Comprehensive Management and Protection of Expansive Forest Landscapes</h2>
+      <p>
+      Expansive forest areas are managed and protected to ensure their long-term preservation. Strategic partnerships and effective conservation strategies safeguard these vital landscapes against threats such as deforestation and climate change. Coordination with local communities and stakeholders maintains ecological balance, supports biodiversity, and enhances environmental resilience. Through sustainable management practices, these forests provide essential ecosystem services and support diverse wildlife.
+      </p> 
+         </section>
+    
       
       <section className={`${styles.section2} ${styles.animateRollIn}`}>
         <header className={styles.banner4}>BMF Conservation Targets</header>
@@ -34,7 +31,7 @@ const WhatWeDoPage = () => {
       </section>
 
       <section className={`${styles.section2} ${styles.animateRollIn}`}>
-        <header className={styles.banner2}>Building Community Stewards</header>
+        <header className={styles.banner2}>Building Stewardship</header>
         <WWDPanel2 />
       </section>
 
