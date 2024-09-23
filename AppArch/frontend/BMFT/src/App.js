@@ -6,7 +6,6 @@ import Newsfeed from "./components/MainPages/Newsfeed";
 import Involvement from "./components/MainPages/Involvement";
 import WhoWeAre from "./components/MainPages/WhoWeAre"
 import Footer from "./components/GeneralFeatures/Footer"
-import Login from "./components/API/Login"
 import WhatWeDo from "./components/MainPages/WhatWeDo";
 import AgroProj from "./components/WWDFeatures/AgroProj";
 import ProtBio from "./components/WWDFeatures/ProtBio";
@@ -25,6 +24,7 @@ import Patrols from './components/WWDFeatures/Patrols';
 import Scientificresearch from './components/WWDFeatures/Scientificresearch';
 import Developers from './components/WWDFeatures/Developers';
 import NewsPages from './components/API/NewsPages';
+import Login from './components/API/Login';
 
 function App() {
   const [isNavbarVisible, setNavbarVisible] = useState(true);
@@ -158,17 +158,15 @@ function App() {
           <Route path = "/inprog">
           <Nav isVisible={isNavbarVisible} />
           <Mobilenav></Mobilenav>
-         <Inprog></Inprog>
+          <Inprog></Inprog>
           </Route>
-          <Footer/>
-       
-
-          <Route path = "/Login">
-          <Login></Login>
-          </Route>
-
+          
           <Route path = "/settings">
           <Setting></Setting>
+          </Route>
+
+          <Route path = "/login">
+          <Login></Login>
           </Route>
 
           <Route path="/article/:title" component={NewsPages}></Route>
