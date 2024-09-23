@@ -37,6 +37,24 @@ All files except Newsfeed.js. That component renders text from the backend. Plea
 
 For any backend interacting components, please refer to the [API](https://github.com/IvanMK518/Belize-Maya-Forest-Trust/tree/main/AppArch/frontend/BMFT/src/components/API) folder. Any backend interacting additions should be added to this folder.
 
+## Notes on components:
+
+## AdminNews.js
+
+This component makes an API call to the backend to pull any relevant news articles with the tags 'news' or 'annual report'. 
+
+## Setting.js
+
+This component handles user deletion and password changes for those with admin access. Please refer to each specific subcomponent for functional changes [delete](https://github.com/IvanMK518/Belize-Maya-Forest-Trust/blob/main/AppArch/frontend/BMFT/src/components/API/DeleteUser.js) [password change](https://github.com/IvanMK518/Belize-Maya-Forest-Trust/blob/main/AppArch/frontend/BMFT/src/components/API/UpdatePassword.js) Beware: Once you delete the account, there is no recovery. You must be logged in to access this.
+
+## NewsPages.js
+
+This component creates a new page for every news article seen on the newsfeed. Please avoid giving articles the same title to prevent routing conflicts.
+
+## Post.js
+
+This is where you can post news articles to the database. You must be logged in to access this component.
+
 # CSS 
 
 For any CSS changes, please look for the [styles](https://github.com/IvanMK518/Belize-Maya-Forest-Trust/tree/main/AppArch/frontend/BMFT/src/components/styles)
