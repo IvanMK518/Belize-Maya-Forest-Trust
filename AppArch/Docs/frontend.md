@@ -37,6 +37,10 @@ All files except Newsfeed.js. That component renders text from the backend. Plea
 
 For any backend interacting components, please refer to the [API](https://github.com/IvanMK518/Belize-Maya-Forest-Trust/tree/main/AppArch/frontend/BMFT/src/components/API) folder. Any backend interacting additions should be added to this folder.
 
+# CSS 
+
+For any CSS changes, please look for the [styles](https://github.com/IvanMK518/Belize-Maya-Forest-Trust/tree/main/AppArch/frontend/BMFT/src/components/styles)
+folder. Import statements in each component will prompt you to the corresponding CSS module.
 
 
 
