@@ -24,6 +24,7 @@ import Buildingstewards from './components/WWDFeatures/Buildingstewards';
 import Patrols from './components/WWDFeatures/Patrols';
 import Scientificresearch from './components/WWDFeatures/Scientificresearch';
 import Developers from './components/WWDFeatures/Developers';
+import NewsPages from './components/API/NewsPages';
 
 function App() {
   const [isNavbarVisible, setNavbarVisible] = useState(true);
