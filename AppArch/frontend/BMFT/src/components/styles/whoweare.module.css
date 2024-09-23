@@ -31,7 +31,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 2.5rem;
+    font-size: 5rem;
     font-weight: bold;
     color: #ffffff;
     text-align: center;
@@ -548,32 +548,7 @@
     color: #333;
   }
 
-@media (max-width: 768px) {
-    .infoContent {
-        flex-direction: column;
-        text-align: center;
-    }
 
-    .infoContainer {
-        max-width: 100%;
-    }
-
-    .infoImage {
-        margin-top: 20px;
-        max-width: 100%;
-    }
-
-    .panelsContainer {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .panel {
-        margin-bottom: 20px;
-        max-width: 100%;
-        height: auto;
-    }
-}
 
 .missionVisionSection {
     display: flex;

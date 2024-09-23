@@ -117,13 +117,6 @@
   opacity: 1;
 }
 
-.section {
-  margin-bottom: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-left: 20px;
-}
 
 .aboutPanel {
   background-color: #f0f0f0;
@@ -145,8 +138,26 @@
   font-weight: bold;
   margin-bottom: 1em;
 }
-@media (max-width: 774px) {
-.arrowContainer{
-  display: none;
+.section {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 20px;
 }
+
+@media (max-width: 774px) {
+  .section {
+    flex-direction: column; 
+    margin-left: 0; 
+  }
+
+  .dropdown {
+    flex: 1 1 100%; 
+    max-width: 100%;
+    margin-left: 0; 
+    margin-bottom: 10px; 
+  }
+
+ 
 }

@@ -1,12 +1,3 @@
-.panelcontainer {
-  display: flex;
-  grid-template-columns: repeat(4, 1fr); 
-  gap: 60px; 
-  justify-content: center; 
-  margin: 40px auto; 
-  max-width: 2000px; 
-}
-
 .panel {
   width: 100%; 
   max-width: 300px; 
@@ -62,4 +53,27 @@
 
 .learnmorebtn:hover {
   background-color: #41a234;
+}
+.panelcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 60px; 
+  margin: 40px auto; 
+  max-width: 2000px; 
+}
+
+
+@media (max-width: 774px) {
+  .panelcontainer {
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px; 
+  }
+
+  .panel {
+    width: 100%; 
+    max-width: 300px; 
+    margin: 0 auto; 
+  }
 }
