@@ -4,7 +4,7 @@
   "description": "This read.me will have all the instructions and guides needed to mantain both the frontend and backend handles of this web application.",
   "main": "index.js",
   "scripts": {
-    "start": "cd backend && node index.js",
+    "start": "cd AppArch/backend && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
