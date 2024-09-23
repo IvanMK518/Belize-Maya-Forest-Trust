@@ -1,4 +1,4 @@
-node_modules/
+AppArch/frontend/BMFT/node_modules/
 test/
 docs/
 .env
@@ -8,4 +8,5 @@ docs/
 dist/
 build/
 .git/
-assets/
+AppArch/frontend/BMFT/components/assets/
+
