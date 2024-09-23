@@ -1,6 +1,8 @@
 # How to start the application locally
 
-Once you have cloned the repository, in your terminal, cd AppArch/frontend/BMFT then [npm start]() to launch the backend
+Once you have cloned the repository, in your terminal, cd AppArch/frontend/BMFT then [npm start]() to launch the frontend.
+
+To run the backend concurrently, split your terminal and cd AppArch/backend then [npm start](). Ensure that you have your IP address configured in MONGODB, otherwise the backend will not launch.
 
 # Pages for text edits
 
