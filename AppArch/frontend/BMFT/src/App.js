@@ -171,8 +171,6 @@ function App() {
 
           <Route path="/article/:title" component={NewsPages}></Route>
        
-          
-
           </Switch>
           
           
