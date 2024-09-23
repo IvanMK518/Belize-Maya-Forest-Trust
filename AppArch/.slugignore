@@ -8,4 +8,4 @@ docs/
 dist/
 build/
 .git/
-package-lock.json/
+assets/
