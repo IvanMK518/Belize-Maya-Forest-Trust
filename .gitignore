@@ -9,4 +9,6 @@ AppArch/backend/.env
 AppArch/frontend/BMFT/node_modules
 AppArch/frontend/BMFT/package.json
 AppArch/frontend/BMFT/package-lock.json
+*.jpg
+
 
