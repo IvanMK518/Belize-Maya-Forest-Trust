@@ -16,6 +16,7 @@ import Staff from "./components/GeneralFeatures/Staff";
 import Communitystewards from './components/WWDFeatures/Communitystewards';
 import AdminNews from "./components/API/AdminNews";
 import Setting from './components/API/Setting';
+import NewsPages from './components/API/NewsPages';
 
 function App() {
   const [isNavbarVisible, setNavbarVisible] = useState(true);
@@ -100,6 +101,8 @@ function App() {
           <Route path = "/settings">
           <Setting></Setting>
           </Route>
+
+          <Route path="/article/:title" component={NewsPages}></Route>
        
           
 

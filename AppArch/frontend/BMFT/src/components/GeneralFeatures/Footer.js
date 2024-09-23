@@ -1,8 +1,11 @@
 import React from 'react';
 import styles from '../styles/foot.module.css';
 import FinalBMFT from '../assets/FinalBMFT.jpg';
+import Logout from '../API/Logout';
 
 function Footer() {
+  const token = localStorage.getItem('token');
+
   return (
     <div className={styles.footercontainer}>
       <section className={styles.footersubscription}>
@@ -48,6 +51,15 @@ function Footer() {
             <button className={styles.subbutton}>
               Subscribe
             </button>
+            <div>
+            {token ? (
+            <Logout/>):(
+            <button className={styles.btnLogin}>
+              <a href = "/login">Admin Access</a>
+            </button>
+              )}
+            </div>
+           
           </div>
         </div>
       </div>

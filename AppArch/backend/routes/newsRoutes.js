@@ -53,4 +53,18 @@ router.get('/news', async (req, res) => {
     }
 });
 
+router.get('/news/:title', async (req, res) => {
+    try {
+      const newsPost = await File.findOne({ title: req.params.title }); // Find the news by title
+      if (!newsPost) {
+        return res.status(404).json({ error: 'News post not found' });
+      }
+      res.status(200).json(newsPost);
+    } catch (err) {
+      console.error('Error fetching news post:', err);
+      res.status(500).json({ error: 'Server error' });
+    }
+});
+  
+
 module.exports = router;

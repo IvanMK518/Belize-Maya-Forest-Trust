@@ -57,6 +57,28 @@
   
 }
 
+.btnLogOut {
+  margin-top: 2vh;
+  background-color: #52c742; 
+  color: #ffffff;
+  padding: 0.2rem 2.25rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: ease background-color 250ms;
+}
+
+.btnLogin {
+  margin-top: 2vh;
+  background-color: #52c742; 
+  color: #ffffff;
+  padding: 0.5rem .65rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: ease background-color 250ms;
+}
+
 .subbutton {
   background-color: #52c742; 
   color: #ffffff;
@@ -67,6 +89,14 @@
   transition: ease background-color 250ms;
 }
 .subbutton:hover {
+  background-color: rgb(60, 154, 48);
+}
+
+.btnLogOut:hover {
+  background-color: rgb(60, 154, 48);
+}
+
+.btnLogin:hover {
   background-color: rgb(60, 154, 48);
 }
 
@@ -168,4 +198,5 @@
   right: 40px;
   top: -20px;
  }
+ 
   }
