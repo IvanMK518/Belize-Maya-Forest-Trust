@@ -102,14 +102,14 @@
 }
 
 .infoContainer h2 {
-    font-size: 45px;
+    font-size: 35px;
     margin-bottom: 20px;
     position: relative;
     display: inline-block;
 }
 
 .infoContainer p {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.6;
     margin-top: 30px;
 }
@@ -604,7 +604,7 @@
     color: #444;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .missionVisionSection {
         flex-direction: column;
         padding: 20px;
@@ -614,5 +614,62 @@
         margin: 10px 0;
         padding: 20px;
         min-height: auto;
+    }
+}
+@media (max-width: 1100px) {
+    .infoSection {
+        padding: 20px;
+    }
+
+    .infoContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .infoContainer {
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .infoImage {
+        margin-top: 20px;
+        max-width: 60%;
+    }
+
+    .infoImage img {
+        width: 100%;
+        height: auto;
+    }
+
+    .infoContainer h2 {
+        font-size: 2rem;
+    }
+
+    .infoContainer p {
+        font-size: 1rem;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 900px) {
+    .header2 {
+        height: 50vh; 
+    }
+
+    .titleoverlay2 {
+        font-size: 1rem;
+    }
+
+    .seeMoreButton {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .header2 img {
+        filter: brightness(0.7);
+    }
+}
+@media (max-width: 900px) {
+    .header2 {
+        height: 70vh; 
     }
 }

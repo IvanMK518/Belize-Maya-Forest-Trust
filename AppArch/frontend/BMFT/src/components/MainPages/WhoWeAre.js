@@ -12,9 +12,9 @@ import Wbird from "../assets/Wbird.JPG";
 import Wshed from "../assets/Wshed.jpg";
 import Wcul from "../assets/Wcul.JPG";
 import Wshed2 from "../assets/Wshed2.jpg";
-import Placeholder from "../assets/Placeholder.jpg"
+import Placeholder from "../assets/Placeholder.jpg";
 import WWDInfo from '../WWDFeatures/WWDInfo';
-import Ntop from "../assets/Ntop.jpg"
+import Ntop from "../assets/Ntop.jpg";
 
 const Panel = ({ image, title, description }) => {
     const [flipped, setFlipped] = useState(false);
@@ -60,7 +60,7 @@ const WhoWeAre = () => {
                         Demonstrating a globally recognized, locally relevant model of healthy, biodiverse forest protected for and by all Belizeans.
                     </p>
                 </div>
-                </section>
+            </section>
             <section className={styles.infoSection}>
                 <div className={styles.infoContent}>
                     <div className={styles.infoContainer}>
