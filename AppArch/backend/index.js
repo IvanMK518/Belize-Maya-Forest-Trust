@@ -12,6 +12,10 @@ connectDB();
 
 const app = express();
 
+app.get('/', (req, res) => {
+    res.send('Welcome to Belize Maya Forest Trust API');
+  });
+
 app.use(express.json());
 app.use(cors());
 app.use('/api', userRoutes);
