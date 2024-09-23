@@ -14,9 +14,9 @@ MongoDB Atlas
 
 Please refer to the documentation page:
 
-[frontend:] (https://github.com/IvanMK518/Belize-Maya-Forest-Trust/blob/main/AppArch/Docs/frontend.md)
+[frontend:](https://github.com/IvanMK518/Belize-Maya-Forest-Trust/blob/main/AppArch/Docs/frontend.md)
 
-[backend:] (https://github.com/IvanMK518/Belize-Maya-Forest-Trust/blob/main/AppArch/Docs/backend.md)
+[backend:](https://github.com/IvanMK518/Belize-Maya-Forest-Trust/blob/main/AppArch/Docs/backend.md)
 
 ## Creators:
 
