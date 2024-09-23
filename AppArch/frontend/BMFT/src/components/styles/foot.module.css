@@ -148,7 +148,7 @@
   }
 
   .FinalBMFT {
-    max-height: 100px; /* Adjust for smaller screens */
+    max-height: 100px;
     margin: 1rem 0;
   }
 
@@ -184,7 +184,7 @@
   .inputareas{
     transform: scale(0.9);
    
-    margin-left: -100px;
+    margin-left: -60px;
   }
 }
 
