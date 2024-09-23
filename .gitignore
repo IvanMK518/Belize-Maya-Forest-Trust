@@ -6,3 +6,9 @@ AppArch/frontend/BMFT/src/components/assets/WWDHeader3.JPG
 AppArch/frontend/BMFT/src/components/assets/WWDRand.jpg
 AppArch/backend/server/.env
 AppArch/backend/.env
+AppArch/frontend/BMFT/node_modules
+AppArch/frontend/BMFT/package.json
+AppArch/frontend/BMFT/package-lock.json
+*.jpg
+
+
