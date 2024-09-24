@@ -10,6 +10,7 @@ function AdminNews() {
   const [annualReportData, setAnnualReportData] = useState([]);
   const [selectedNews, setSelectedNews] = useState(null);
   const [activeTab, setActiveTab] = useState('news');
+  const nav = useHistory();
 
 
   useEffect(() => {
@@ -38,15 +39,11 @@ function AdminNews() {
     fetchAnnualReportData();
   }, []);
 
-  const history = (news) => {
-    history.push(`/article/${news.title}`);
+  const history = (title) => {
+    nav.push(`/article/${title}`);
     window.location.reload(); // Force a full page reload after navigating
   };
 
-  const history2 = (report) => {
-    history.push(`/article/${report.title}`);
-    window.location.reload(); // Force a full page reload after navigating
-  };
 
   const handleOpenPopup = (news) => {
     setSelectedNews(news); // Show selected news in popup
@@ -116,8 +113,8 @@ function AdminNews() {
                     {new Date(news.uploadDate).toLocaleDateString()}
                   </p>
                   <p className={styles.newsDescription}>{news.description}</p>
-                  <button className={styles.readMore} onClick={history}>
-                    Read More
+                  <button className={styles.readMore} onClick={() => history(news.title)}>
+                      Read More
                   </button>
                 </div>
               ))
@@ -158,7 +155,9 @@ function AdminNews() {
                   </p>
                   <p className={styles.newsDescription}>{report.description}</p>
                   
-                    <a href="article/Test">Read More</a>
+                  <button className={styles.readMore} onClick={() => history(report.title)}>
+                      Read More
+                  </button>
                   
                 </div>
               ))

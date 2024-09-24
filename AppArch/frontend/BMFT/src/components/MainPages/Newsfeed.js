@@ -1,19 +1,17 @@
 import React, { useState, useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
 import axios from 'axios'; 
 import styles from '../styles/Newsfeed.module.css'; 
 import Ntop from '../assets/Ntop.jpg';
-import { useHistory } from 'react-router-dom';
-
 
 function Newsfeed() {
   const [newsData, setNewsData] = useState([]);
   const [annualReportData, setAnnualReportData] = useState([]);
   const [selectedNews, setSelectedNews] = useState(null);
-  const [activeTab, setActiveTab] = useState('news'); 
-  const history = useHistory();
+  const [activeTab, setActiveTab] = useState('news');
+  const nav = useHistory();
 
-  
-  
+
   useEffect(() => {
     const fetchNewsData = async () => {
       try {
@@ -40,18 +38,18 @@ function Newsfeed() {
     fetchAnnualReportData();
   }, []);
 
+  const history = (title) => {
+    nav.push(`/article/${title}`);
+    window.location.reload(); // Force a full page reload after navigating
+  };
+
+
   const handleOpenPopup = (news) => {
     setSelectedNews(news); // Show selected news in popup
   };
 
   const handleClosePopup = () => {
     setSelectedNews(null); // Close popup
-  };
-
-  const handleReadMore = (title) => {
-    // Programmatic navigation to the article page
-    history.push(`/article/${title}`);
-    window.location.reload();
   };
 
   return (
@@ -111,11 +109,8 @@ function Newsfeed() {
                     {new Date(news.uploadDate).toLocaleDateString()}
                   </p>
                   <p className={styles.newsDescription}>{news.description}</p>
-                  <button 
-                    className={styles.readMore} 
-                    onClick={() => handleReadMore(news.title)} 
-                  >
-                    Read More
+                  <button className={styles.readMore} onClick={() => history(news.title)}>
+                      Read More
                   </button>
                 </div>
               ))
@@ -155,12 +150,11 @@ function Newsfeed() {
                     {new Date(report.uploadDate).toLocaleDateString()}
                   </p>
                   <p className={styles.newsDescription}>{report.description}</p>
-                  <button 
-                    className={styles.readMore} 
-                    onClick={() => handleReadMore(report.title)} // Use handleReadMore on click
-                  >
-                    Read More
+                  
+                  <button className={styles.readMore} onClick={() => history(report.title)}>
+                      Read More
                   </button>
+                  
                 </div>
               ))
             ) : (
@@ -186,4 +180,4 @@ function Newsfeed() {
   );
 }
 
-export default Newsfeed;
+export default  Newsfeed;
