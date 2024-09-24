@@ -10,22 +10,22 @@ For anyone modifying text with no experience using JSX, please look for the retu
 
 ## Where to make edits:
 
-### BIOPages
+### [BIOPages](https://github.com/IvanMK518/Belize-Maya-Forest-Trust/tree/main/AppArch/frontend/BMFT/src/components/BIOPages)
 
     - Board.js
     - Ourteam.js
     - Staff.js
     - Supporters.js
 
-### GeneralFeatures
+### [GeneralFeatures](https://github.com/IvanMK518/Belize-Maya-Forest-Trust/tree/main/AppArch/frontend/BMFT/src/components/GeneralFeatures)
 
     - Biography
 
-### MainPages
+### [MainPages](https://github.com/IvanMK518/Belize-Maya-Forest-Trust/tree/main/AppArch/frontend/BMFT/src/components/MainPages)
     
 All files except Newsfeed.js. That component renders text from the backend. Please refer to the backend documentation.
 
-### WWDFeatures
+### [WWDFeatures](https://github.com/IvanMK518/Belize-Maya-Forest-Trust/tree/main/AppArch/frontend/BMFT/src/components/WWDFeatures)
 
     - AgroProj.js
     - Building Stewards.js
