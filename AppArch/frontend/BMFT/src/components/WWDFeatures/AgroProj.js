@@ -1,11 +1,5 @@
 import React, { useState } from 'react';
 import styles from '../styles/AgroProj.module.css';
-import APField from '../assets/APField.jpg'; 
-import APpeople from '../assets/APpeople.jpg';
-import APgreen from '../assets/APgreen.jpg';
-import APshells from '../assets/APshells.jpg';
-import Placeholder from "../assets/Placeholder.jpg";
-
 
 const Modal = ({ src, alt, onClose }) => {
     return (
@@ -48,7 +42,7 @@ const AgroProj = () => {
         <div className={styles.PageContainer}>
             <h1 className={styles.titleoverlay}>Regenerative Agriculture</h1>
             <header className={styles.header}>
-                <img src={APField} alt="Header" />
+                <img src="https://link-to-your-image/APField.jpg" alt="Header" />
             </header>
             <section className={styles.introduction}>
                 <div className={styles.introText}>
@@ -61,16 +55,16 @@ const AgroProj = () => {
                     </p>
                 </div>
                 <section className={styles.imageGallery}>
-                <div className={styles.images}>
-                    <img src={APshells} alt="Field showcasing regenerative agriculture practices" className={styles.image} />
-                    <img src={APpeople} alt="Farmers engaged in sustainable farming" className={styles.image} />
-                    <img src={APgreen} alt="Close-up of healthy, green soil" className={styles.image} />
-                </div>
-            </section>
+                    <div className={styles.images}>
+                        <img src="https://link-to-your-image/APshells.jpg" alt="Field showcasing regenerative agriculture practices" className={styles.image} />
+                        <img src="https://link-to-your-image/APpeople.jpg" alt="Farmers engaged in sustainable farming" className={styles.image} />
+                        <img src="https://link-to-your-image/APgreen.jpg" alt="Close-up of healthy, green soil" className={styles.image} />
+                    </div>
+                </section>
             </section>
             <TopicSection
                 title="Cover Crops"
-                imgSrc={Placeholder}
+                imgSrc="https://link-to-your-image/Placeholder.jpg"
                 reverse={false} 
                 onImageClick={handleImageClick}
             >
@@ -78,7 +72,7 @@ const AgroProj = () => {
             </TopicSection>
             <TopicSection
                 title="Inga edulis"
-                imgSrc={Placeholder}
+                imgSrc="https://link-to-your-image/Placeholder.jpg"
                 reverse={true} 
                 onImageClick={handleImageClick}
             >
@@ -86,7 +80,7 @@ const AgroProj = () => {
             </TopicSection>
             <TopicSection
                 title="Agroforestry"
-                imgSrc={Placeholder}
+                imgSrc="https://link-to-your-image/Placeholder.jpg"
                 reverse={false} 
                 onImageClick={handleImageClick}
             >
@@ -94,7 +88,7 @@ const AgroProj = () => {
             </TopicSection>
             <TopicSection
                 title="Reforestation"
-                imgSrc={Placeholder}
+                imgSrc="https://link-to-your-image/Placeholder.jpg"
                 reverse={true} 
                 onImageClick={handleImageClick}
             >
@@ -102,11 +96,11 @@ const AgroProj = () => {
             </TopicSection>
             <TopicSection
                 title="Workshops and Training"
-                imgSrc={Placeholder}
+                imgSrc="https://link-to-your-image/Placeholder.jpg"
                 reverse={false} 
                 onImageClick={handleImageClick}
             >
-The Belize Maya Forest Trust’s Regenerative Agriculture Program is dedicated to empowering local communities through a series of hands-on training and workshops focused on sustainable agricultural practices. These sessions are designed to enhance farmers' knowledge and skills, ensuring that they can implement methods that improve soil health, increase biodiversity, and promote climate resilience.
+                The Belize Maya Forest Trust’s Regenerative Agriculture Program is dedicated to empowering local communities through a series of hands-on training and workshops focused on sustainable agricultural practices. These sessions are designed to enhance farmers' knowledge and skills, ensuring that they can implement methods that improve soil health, increase biodiversity, and promote climate resilience.
             </TopicSection>
             <section className={styles.videoSection}>
                 <h2>Empowering Women in Conservation</h2>

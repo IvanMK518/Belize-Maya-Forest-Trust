@@ -2,10 +2,6 @@ import React, { useState } from 'react';
 import styles from '../styles/patrols.module.css';
 import Patrolcir from "./Patrolcir";
 import LivePatrolTracker from '../GeneralFeatures/LivePatrolTracker';
-import Pat1 from "../assets/Pat1.jpg";
-import Pat3 from "../assets/Pat3.jpg";
-import Pat4 from "../assets/Pat4.jpg";
-import Pat5 from "../assets/Pat5.jpg";
 
 const ImageModal = ({ isOpen, onClose, imageSrc }) => {
     if (!isOpen) return null;
@@ -50,7 +46,7 @@ const Patrols = () => {
                             ...
                         </p>
                     </div>
-                    <img src={Pat1} alt="Ranger Team" className={styles.image} />
+                    <img src="https://link-to-your-image/Pat1.jpg" alt="Ranger Team" className={styles.image} />
                 </div>
 
                 <section>
@@ -78,9 +74,9 @@ const Patrols = () => {
                 </div>
 
                 <div className={styles.imageGallery}>
-                    <img src={Pat3} alt="Patrol 1" onClick={() => openModal(Pat3)} className={styles.galleryImage} />
-                    <img src={Pat4} alt="Patrol 2" onClick={() => openModal(Pat4)} className={styles.galleryImage} />
-                    <img src={Pat5} alt="Patrol 3" onClick={() => openModal(Pat5)} className={styles.galleryImage} />
+                    <img src="https://link-to-your-image/Pat3.jpg" alt="Patrol 1" onClick={() => openModal("https://link-to-your-image/Pat3.jpg")} className={styles.galleryImage} />
+                    <img src="https://link-to-your-image/Pat4.jpg" alt="Patrol 2" onClick={() => openModal("https://link-to-your-image/Pat4.jpg")} className={styles.galleryImage} />
+                    <img src="https://link-to-your-image/Pat5.jpg" alt="Patrol 3" onClick={() => openModal("https://link-to-your-image/Pat5.jpg")} className={styles.galleryImage} />
                 </div>
 
                 <ImageModal isOpen={isModalOpen} onClose={closeModal} imageSrc={currentImage} />

@@ -1,15 +1,5 @@
 import React, { useState } from 'react';
 import styles from '../styles/fireman.module.css';
-import PBfireteam from '../assets/PBfireteam.jpg';
-import PBCheck from "../assets/PBCheck.jpg";
-import PBfire from "../assets/PBfire.jpg";
-import Placeholder from "../assets/Placeholder.jpg";
-import PBtop from "../assets/PBtop.JPG";
-import PBbird from  "../assets/PBbird.JPG";
-import PBgator from "../assets/PBgator.jpg";
-import OTteam2 from "../assets/OTteam2.JPG";
-import OTplan from "../assets/OTplan.JPG";
-import OTplan2 from "../assets/OTplan2.JPG";
 
 const Modal = ({ src, alt, onClose }) => {
     return (
@@ -50,10 +40,9 @@ const Fireman = () => {
 
     return (
         <div className={styles.PageContainer}>
-         
             <section className={styles.Head2}>
                 <header className={styles.header2}>
-                    <img src={PBbird} alt="Fire Prevention" />
+                    <img src="https://link-to-your-image/PBbird.JPG" alt="Fire Prevention" />
                     <h1 className={styles.titleoverlay2}>Fire Prevention</h1>
                 </header>
             </section>
@@ -65,9 +54,9 @@ const Fireman = () => {
             </section>
             <section className={styles.imageGallery}>
                 <div className={styles.images}>
-                    <img src={PBfireteam} alt="Habitat Restoration" className={styles.image} />
-                    <img src={PBCheck} alt="Endangered Species" className={styles.image} />
-                    <img src={PBfire} alt="Community Education" className={styles.image} />
+                    <img src="https://link-to-your-image/PBfireteam.jpg" alt="Habitat Restoration" className={styles.image} />
+                    <img src="https://link-to-your-image/PBCheck.jpg" alt="Endangered Species" className={styles.image} />
+                    <img src="https://link-to-your-image/PBfire.jpg" alt="Community Education" className={styles.image} />
                 </div>
             </section>
             

@@ -1,14 +1,11 @@
 import React from "react";
 import styles from '../styles/patrolcir.module.css';
-import Hand from "../assets/Hand.jpg";
-import Fist from "../assets/Fist.jpg";
-import Tree from "../assets/Tree.jpg";
 
 const Patrolcir = () => {
   const bubbleData = [
-    { title: "Protect", image: Fist },
-    { title: "Preserve", image: Tree },
-    { title: "Inspire", image: Hand },
+    { title: "Protect", image: "https://link-to-your-image/Fist.jpg" },
+    { title: "Preserve", image: "https://link-to-your-image/Tree.jpg" },
+    { title: "Inspire", image: "https://link-to-your-image/Hand.jpg" },
   ];
 
   return (
@@ -24,3 +21,4 @@ const Patrolcir = () => {
 };
 
 export default Patrolcir;
+

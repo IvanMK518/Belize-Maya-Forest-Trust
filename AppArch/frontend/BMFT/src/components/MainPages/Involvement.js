@@ -1,14 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link for routing
 import styles from "../styles/involvment.module.css";
-import Imonkey from "../assets/Imonkey.png";
 import GIPanels from '../GIFeatures/GIPanels';
 
 const Involvement = () => {
   return (
     <div className={styles.PageContainer}>
       <header className={styles.header}>
-        <img src={Imonkey} alt="Header" />
+        <img src="https://your-google-photos-url/Imonkey.png" alt="Header" />
         <div className={styles.titleoverlay}>
           <h1>Join Our Conservation Efforts</h1>
           <Link to="/Inprog" className={styles.donationButton}>

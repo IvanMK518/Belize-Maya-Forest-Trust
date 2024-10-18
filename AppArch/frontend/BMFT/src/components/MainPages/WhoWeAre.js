@@ -1,20 +1,5 @@
 import React, { useState } from 'react';
-import styles from '../styles/whoweare.module.css'; 
-import WWAtop from "../assets/WWAtop.jpg";
-import WWAposter from "../assets/WWAposter.jpg";
-import WWAmid from "../assets/WWAmid.jpg";
-import WWArangers from "../assets/WWArangers.jpg"; 
-import WWAboard from "../assets/WWAboard.jpg";
-import facebookicon from "../assets/facebookicon.webp";
-import youtubeicon from "../assets/youtubeicon.png";
-import gmailicon2 from "../assets/gmailicon2.jpg";
-import Wbird from "../assets/Wbird.JPG";
-import Wshed from "../assets/Wshed.jpg";
-import Wcul from "../assets/Wcul.JPG";
-import Wshed2 from "../assets/Wshed2.jpg";
-import Placeholder from "../assets/Placeholder.jpg";
-import WWDInfo from '../WWDFeatures/WWDInfo';
-import Ntop from "../assets/Ntop.jpg";
+import styles from '../styles/whoweare.module.css';
 
 const Panel = ({ image, title, description }) => {
     const [flipped, setFlipped] = useState(false);
@@ -43,12 +28,11 @@ const Panel = ({ image, title, description }) => {
     );
 };
 
-
 const WhoWeAre = () => {
     return (
         <div className={styles.pageContainer}>
             <header className={styles.header}>
-                <img src={WWAtop} alt="Header" />
+                <img src="https://link-to-your-image/WWAtop.jpg" alt="Header" />
                 <div className={styles.titleoverlay}>
                     <h1>Belize Maya Forest Trust</h1>
                 </div>
@@ -79,12 +63,12 @@ const WhoWeAre = () => {
                         </p>
                     </div>
                     <div className={styles.infoImage}>
-                        <img src={WWAposter} alt="WWA Poster" />
+                        <img src="https://link-to-your-image/WWAposter.jpg" alt="WWA Poster" />
                     </div>
                 </div>
             </section>
             <section className={styles.header2}>
-                <img src={WWAmid} alt="Meet the Team" />
+                <img src="https://link-to-your-image/WWAmid.jpg" alt="Meet the Team" />
                 <div className={styles.titleoverlay2}>
                     <h1>Meet the Team</h1>
                     <a href="/ourpeople" className={styles.seeMoreButton}>See More</a>
@@ -102,41 +86,42 @@ const WhoWeAre = () => {
                 <h2>Ecosystem Services</h2>
                 <div className={styles.panelsContainer}>
                     <Panel 
-                        image={Wbird} 
+                        image="https://link-to-your-image/Wbird.JPG" 
                         title="Biodiversity" 
                         description="The Belize Maya Forest is home to a diverse range of species, contributing to global biodiversity and the health of various ecosystems."
                     />
                     <Panel 
-                        image={Wshed2} 
+                        image="https://link-to-your-image/Wshed2.jpg" 
                         title="Watersheds" 
                         description="The forest plays a vital role in watershed management, influencing water quality and availability for surrounding communities."
                     />
                     <Panel 
-                        image={Placeholder} 
+                        image="https://link-to-your-image/Placeholder.jpg" 
                         title="Climate Regulation" 
                         description="About climate regulation."
                     />
                     <Panel 
-                        image={Wcul} 
+                        image="https://link-to-your-image/Wcul.JPG" 
                         title="Cultural Heritage" 
                         description="The Belize Maya Forest is rich in cultural heritage, with significant archaeological sites and traditional practices."
                     />
                 </div>
             </section>
             <section className={styles.aboutPanel}>
-        <p className={styles.aboutText}>
-        The Belize Maya Forest (BMF), previously known as Yalbac and Laguna Seca, were owned and managed by a foreign logging company. The properties were bought in December 2020 for protection by the Belize Maya Forest Trust (BMFT) through an effort led by TNC, and many other generous organizations and individual supporters.          </p>
-      </section>
+                <p className={styles.aboutText}>
+                    The Belize Maya Forest (BMF), previously known as Yalbac and Laguna Seca, were owned and managed by a foreign logging company. The properties were bought in December 2020 for protection by the Belize Maya Forest Trust (BMFT) through an effort led by TNC, and many other generous organizations and individual supporters.  
+                </p>
+            </section>
 
             <section className={styles.socials}>
                 <a href="mailto:info@bmft.org.bz" className={styles.socialIcon} title="Email">
-                    <img src={gmailicon2} alt="Gmail" className={styles.iconImage} />
+                    <img src="https://link-to-your-image/gmailicon2.jpg" alt="Gmail" className={styles.iconImage} />
                 </a>
                 <a href="https://www.facebook.com/BelizeMayaForestTrust" className={styles.socialIcon} title="Facebook">
-                    <img src={facebookicon} alt="Facebook" className={styles.iconImage} />
+                    <img src="https://link-to-your-image/facebookicon.webp" alt="Facebook" className={styles.iconImage} />
                 </a>
                 <a href="https://www.youtube.com/channel/UCWKdyK1WxDc7nKskT_vsEeQ" className={styles.socialIcon} title="YouTube">
-                    <img src={youtubeicon} alt="YouTube" className={styles.iconImage} />
+                    <img src="https://link-to-your-image/youtubeicon.png" alt="YouTube" className={styles.iconImage} />
                 </a>
             </section>
         </div>

@@ -1,9 +1,5 @@
 import React from "react";
 import styles from '../styles/scientificresearch.module.css';
-import PBgator from "../assets/PBgator.jpg";
-import OTplan from "../assets/OTplan.JPG";
-import OTteam2 from "../assets/OTteam2.JPG";
-import OTplan2 from "../assets/OTplan2.JPG";
 
 const ScientificResearch = () => {
     return (
@@ -14,7 +10,7 @@ const ScientificResearch = () => {
             </header>
             <section className={styles.head2}>
                 <header className={styles.header2}>
-                    <img src={PBgator} alt="Yalbac Water Quality" />
+                    <img src="https://link-to-your-image/PBgator.jpg" alt="Yalbac Water Quality" />
                     <h1 className={styles.titleOverlay2}>Yalbac Water Quality</h1>
                 </header>
             </section>
@@ -29,9 +25,9 @@ const ScientificResearch = () => {
             </section>
             <section className={styles.imageGallery}>
                 <div className={styles.images}>
-                    <img src={OTplan} alt="Planning Water Quality" className={styles.image} />
-                    <img src={OTteam2} alt="The Team" className={styles.image} />
-                    <img src={OTplan2} alt="Planning" className={styles.image} />
+                    <img src="https://link-to-your-image/OTplan.JPG" alt="Planning Water Quality" className={styles.image} />
+                    <img src="https://link-to-your-image/OTteam2.JPG" alt="The Team" className={styles.image} />
+                    <img src="https://link-to-your-image/OTplan2.JPG" alt="Planning" className={styles.image} />
                 </div>
             </section>
         </div>

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../styles/nav.module.css';
-import logo from '../assets/logo.png';
 
 const Nav = ({ isVisible, currentPage }) => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -22,7 +21,7 @@ const Nav = ({ isVisible, currentPage }) => {
             <ul className={styles.navList}>
                 <li className={`${styles.navItem} ${styles.logoItem}`}>
                     <a href='/' className={`${styles.navLink} ${currentPage === 'home' ? styles.active : ''} ${isScrolled ? styles.scrolled : ''}`}>
-                        <img className={styles.logo} src={logo} alt="Logo" />
+                        <img className={styles.logo} src="https://your-google-photos-url/logo.png" alt="Logo" />
                     </a>
                 </li>
                 <li className={`${styles.navItem} ${styles.dropdown}`}>

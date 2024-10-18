@@ -1,30 +1,23 @@
 import React from 'react';
 import styles from '../styles/WWDPanel2.module.css';
-import WWDFire from "../assets/WWDFire.jpg"
-import CommOut from "../assets/CommOut.jpg"
-import Agrigo from "../assets/Agrigo.jpg"
 import { Link } from 'react-router-dom';
-import Stewards from '../assets/Stewards.jpg';
 
 const panelsData = [
-  
   {
     id: 2,
-    imgSrc: CommOut,
+    imgSrc: "https://link-to-your-image/CommOut.jpg",
     title: 'Outreach',
     link: '/outreach'
-    
   },
   {
     id: 3,
-    imgSrc: Agrigo,
+    imgSrc: "https://link-to-your-image/Agrigo.jpg",
     title: 'Restorative and Regenerative Agriculture',
     link: '/agroproj'
   },
-
   {
     id: 4,
-    imgSrc: Stewards,
+    imgSrc: "https://link-to-your-image/Stewards.jpg",
     title: 'Community Stewards',
     link: '/communitystewards'
   },
@@ -35,12 +28,9 @@ const Panel = ({ imgSrc, title, description, link }) => (
     <img className={styles.panelimg} src={imgSrc} alt={title} />
     <h2 className={styles.paneltitle}>{title}</h2>
     <p className={styles.paneldescription}>{description}</p>
-    <button
-      className={styles.learnmorebtn}
-      onClick={() => window.location.href = link}
-    >
+    <Link to={link} className={styles.learnmorebtn}>
       Learn More
-    </button>
+    </Link>
   </div>
 );
 
