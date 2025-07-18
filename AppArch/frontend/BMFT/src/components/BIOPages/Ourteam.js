@@ -31,7 +31,6 @@ const teamMembers = [
       imgSrc: ProfilePic
     },
     
-   
 
 
 
