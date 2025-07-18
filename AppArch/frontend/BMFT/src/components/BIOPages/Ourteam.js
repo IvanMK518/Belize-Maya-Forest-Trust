@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import styles from '../styles/ourteam.module.css';
 import ProfilePic from "../assets/ProfilePic.jpg";
-import Rhajjed_Reyes from "../assets/Rhajjed_Reyes.jpg";
+import Ranger 1 from "../assets/Rhajjed_Reyes.jpg";
 import AndyNaj from "../assets/Andy Naj.JPG";
-import MoisesVel from "../assets/Moises Velasquez.JPG";
-import MyroSho from "../assets/Myro Sho.JPG";
-import Byron from "../assets/Byron August.JPG";
-import Mar from "../assets/Mariano Taca.JPG";
-import Alpheos from "../assets/Alpheos Edwards.JPG";
-import Edgar from "../assets/Edgar Mendrano.JPG";
+import Ranger 3 from "../assets/Moises Velasquez.JPG";
+import Ranger 4 from "../assets/Myro Sho.JPG";
+import Ranger 5 from "../assets/Byron August.JPG";
+import Ranger 6 from "../assets/Mariano Taca.JPG";
+import Ranger 7 from "../assets/Alpheos Edwards.JPG";
+import Ranger 8 from "../assets/Edgar Mendrano.JPG";
 import Rtop from "../assets/Rtop.JPG";
 import Staff from "./Staff";
 
 const teamMembers = [
     {
-      name: "Ernesto Velasquez",
+      name: "Ranger ",
       position: "Head Ranger ",
       description: "In the beautiful village of Bullet Tree Falls in the Cayo District, Ernesto Velasquez resides. With a nine-year experience in the Belize Maya Forest area, Ernesto has been working diligently to protect this incredible forest, which was previously unprotected. As the head ranger and fire boss at the Belize Maya Forest Trust for the past two years, Ernesto has had the privilege of directly collaborating with the ranger team's management. This role has provided him with a remarkable experience, and he remains committed to working alongside the ranger team to safeguard the native forest, its trees, the water systems of the Cara Blanca Pools, and the endangered animals of the Belizean jungle. ",
       imgSrc: ProfilePic
