@@ -10,7 +10,7 @@ import MGruin from "../assets/MGruin.png"
 
 import JRob from "../assets/JRob.jpg"
 
-const teamMembers = [
+const boardMembers = [
   {
       name: "Deeriann Buckley-Wade",
       position: "Uknown",
@@ -55,7 +55,7 @@ const teamMembers = [
 
 ];
 
-const Rangers = () => {
+const boardMembers = () => {
   const [selectedMember, setSelectedMember] = useState(null);
 
   const openModal = (member) => {
