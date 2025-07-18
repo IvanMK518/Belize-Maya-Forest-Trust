@@ -15,6 +15,12 @@ const teamMembers = [
       imgSrc: Elma
     },
   {
+      name: "Raquel Chun",
+      position: "Conservation Data Analyst",
+      description: "Raquel comes from the beautiful village of Roaring Creek in the Cayo District. She has joined the Belize Maya Forest Trust (BMFT) team as the new Conservation Data Analyst. The endless natural beauty of Belize, along with the struggles and challenges in managing these areas, has always fascinated her. Her journey into conservation started at the University of Belize, where she studied marine science and natural resource management. She furthered her studies abroad with a Master's degree in Wildlife Health and Population Management at the University of Sydney, Australia and she is completing a doctoral degree in Climate Change and Smallholder Agriculture at Durham University in the United Kingdom. Belize has always held her heart and she has returned home to help protect the vibrant natural resources and contribute to the communities that depend on them.",
+      imgSrc: Raquel
+    }, 
+  {
       name: "Sayuri Tzul",
       position: "Community Outreach and Stewards Coordinator ",
       description: "Sayuri Tzul is currently in the role of Community Outreach and Stewards Coordinator, where she brings her extensive experience in wildlife conservation, epiphyte inventory, communications, conservation education, and sustainable tourism. With over a decade of background in conservation work in Belize, she has pursued further education, earning a master's degree in Agrobusiness and Sustainable Markets from the University of CATIE in Costa Rica. Sayuri has been instrumental in developing educational materials for conservation education, implementing effective communication strategies, and initiating stewardship programs, all in line with her dedication to driving positive change and enhancing livelihoods through her work in conservation and sustainability.",
@@ -32,12 +38,7 @@ const teamMembers = [
       description: "Ermain Requena is a proud team member of the Belize Maya Forest Trust, serving as the Restoration and Regenerative Agriculture Coordinator. With over fifteen years of experience in working with farmers and providing technical support for small-scale agriculture, Ermain is dedicated to sharing his knowledge and promoting sustainable farming practices within the farming community. As part of the Belize Maya Forest Trust, Ermain collaborates with nine stakeholder communities in the wider Belize Maya Forest landscape. The focus of their regenerative agriculture program is to enhance livelihoods through nature-based solutions while working closely with farmers, community stakeholders, and community stewards. Ermain is grateful to be part of a passionate and diverse team that is committed to conserving the Belize Maya Forest through collaboration with nearby communities. ",
       imgSrc: ProfilePic
     },
-    {
-      name: "Raquel Chun",
-      position: "Conservation Data Analyst",
-      description: "Raquel comes from the beautiful village of Roaring Creek in the Cayo District. She has joined the Belize Maya Forest Trust (BMFT) team as the new Conservation Data Analyst. The endless natural beauty of Belize, along with the struggles and challenges in managing these areas, has always fascinated her. Her journey into conservation started at the University of Belize, where she studied marine science and natural resource management. She furthered her studies abroad with a Master's degree in Wildlife Health and Population Management at the University of Sydney, Australia and she is completing a doctoral degree in Climate Change and Smallholder Agriculture at Durham University in the United Kingdom. Belize has always held her heart and she has returned home to help protect the vibrant natural resources and contribute to the communities that depend on them.",
-      imgSrc: Raquel
-    },
+   
 
    
 
