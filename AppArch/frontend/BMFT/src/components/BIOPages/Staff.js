@@ -40,10 +40,15 @@ const teamMembers = [
     },
    
 
-   
+    const Outsource staff = [
+ {
+      name: "Silver Oaks Management Services",
+      Service: "Administration and Human Resources",
+      description: "Silver Oaks serves is a management service dedicated to enhancing the operational efficiency of the Belize Maya Forest Trust (BMFT). This organization plays a crucial role in overseeing various aspects of BMFT's administration, including project budgeting, procurement processes, human resources, and financial management. The exceptional team at Silver Oaks provides invaluable support to the BMFT, enabling the successful execution and management of multiple projects within the reserve and in collaboration with local stakeholder communities. Their expertise not only streamlines operations but also fosters sustainable development initiatives that benefit both the environment, and the people connected to the Belize Maya Forest.",
+      imgSrc: Silver Oaks Logo 
+    },
 
-
-
+  
 
 ];
 
