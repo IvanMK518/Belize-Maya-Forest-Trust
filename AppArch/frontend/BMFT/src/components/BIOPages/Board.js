@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import styles from '../styles/biography.module.css';
 import Elma from "../assets/Elma.png";
-import Tzul from "../assets/Tzul.JPG";
+import DBuck from "../assets/DBuck.jpg"
 import ProfilePic from "../assets/ProfilePic.jpg";
-import Lyndon from "../assets/Lyndon Mai.jpg";
-import Raquel from "../assets/Raquel Chun.JPG";
-import Stop from "../assets/Stop.JPG";
+import MichealHM from "../assets/MichealHM.png"
+import JPepper from "../assets/JPepper.png"
+import MGriffis from "../assets/MGruin.png"
+import MGruin from "../assets/MGruin.png"
+
+import JRob from "../assets/JRob.jpg"
 
 const teamMembers = [
   {
