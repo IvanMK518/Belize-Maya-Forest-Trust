@@ -57,7 +57,7 @@ const WhoWeAre = () => {
                 <div className={styles.missionPanel}>
                     <h2>BMFT's Mission</h2>
                     <p>
-                        Demonstrating a globally recognized, locally relevant model of healthy, biodiverse forest protected for and by all Belizeans.
+                        Demonstrating a locally relevant, globally recognized model of healthy, biodiverse forest protected by and for all Belizeans.
                     </p>
                 </div>
                 </section>
@@ -69,14 +69,20 @@ const WhoWeAre = () => {
                             The Belize Maya Forest Trust (BMFT), established in December 2020, is dedicated to preserving the Belize Maya Forest (BMF) as a global model of effective, lasting conservation.
                         </p>
                         <p>
-                            The BMF, encompassing 236,000 acres of rich, biodiverse forest, was acquired in December 2020 from a US timber investment firm. This achievement followed years of collaboration among NGOs, the Belizean government, private sector entities, and individuals. The BMF is the last extensive lowland broadleaf forest in Belize, bordered by Guatemala, the Rio Bravo Conservation and Management Area (RBCMA), and private agricultural lands. It also surrounds the private property of Gallon Jug, which includes the Chan Chich Lodge and Sylvester Village. Together with the RBCMA and Gallon Jug, the BMF represents 9% of Belize’s land area.
+                            Belize is situated within the heart of the Mayan region; a land steeped in rich cultural history that we now refer to as The Mayan World. This area boasts a vast expanse distinguished by unique features that render it a remarkable locale, celebrated for its abundant natural beauty and archaeological treasures. These elements not only highlight the region's significance but also underscore its status as a priceless heritage, reflecting the profound legacy of the Mayan civilization that once thrived here.  
                         </p>
                         <p>
-                            The BMFT’s protection of the BMF is one of Belize’s largest contributions to land and ocean conservation. This forest, integral to the Rio Hondo watershed, supports a rich array of species such as the jaguar, Baird’s tapir, and Central American river turtle. It also plays a crucial role in regional climate resilience, water security, and biodiversity preservation.
+                            The Belize Maya Forest carries a rich history marked by the activities of chicleros, loggers, and the Yucatec Maya community, particularly the village of San Jose, which is now referred to as ‘Nuevo San Jose Palmar’ located in the Orange Walk District. Following Belize's independence from colonial rule, the land transitioned into the hands of a US timber company, which operated under the names Yalbac and Laguna Seca. Eventually, this foreign logging enterprise departed from Belize, selling off 30 acres to the Spanish Lookout community, while the remaining expanse of land was designated for conservation efforts, reflecting a shift towards preserving the natural heritage of the region. 
                         </p>
                         <p>
-                            To guide its efforts, BMFT developed a Conservation Action Plan (CAP) through a yearlong stakeholder engagement process, adhering to the Conservation Measures Partnership’s Open Standards for the Practice of Conservation. This plan outlines strategies to enhance conservation targets and address threats within the BMF and its surrounding landscape.
+                            In December 2020, a significant milestone was achieved when 236,000 acres of forest were conserved, thanks to a collaborative initiative spearheaded by The Nature Conservancy. This remarkable achievement was the result of years of dedicated partnership among non-governmental organizations, government entities, private sector groups, and passionate individuals, all working together to protect what is now recognized as the last extensive and contiguous lowland broadleaf forest in Belize. Furthermore, in September 2024, an additional 5,500 acres of adjacent forest, known as Sierra de Agua, were acquired by a private owner, further enhancing conservation efforts in the region. As a result, the Belize Maya Forest now encompasses a total of 241,500 acres dedicated to preservation, reflecting a profound commitment to safeguarding this vital ecosystem for future generations. 
                         </p>
+                        <p>
+                            The Belize Maya Forest Trust (BMFT) was established to serve as a dedicated trustee, steward, and manager, tasked with the vital role of implementing protective and sustainable conservation measures within the reserve and its surrounding areas. This local nonprofit organization was officially established in December 2020, reflecting a commitment to environmental stewardship. Furthermore, in August 2021, the BMFT achieved recognition as a Non-Governmental Organization (NGO) under Belize's NGO Act, solidifying its position and ability to operate effectively in the realm of conservation and community engagement. 
+                        </p>
+                         <p>
+                            The Belize Maya Forest is safeguarded for the benefit of both the citizens and the Government of Belize. This commitment ensures that the rich biodiversity and cultural heritage of the region are preserved for future generations, allowing the local communities to thrive while maintaining a deep connection with nature. The protection of this vital ecosystem reflects a shared responsibility to nurture and sustain the natural environment, fostering a sense of stewardship among the people of Belize. 
+                        </p> 
                     </div>
                     <div className={styles.infoImage}>
                         <img src={WWAposter} alt="WWA Poster" />
@@ -94,7 +100,7 @@ const WhoWeAre = () => {
                 <div className={styles.visionPanel}>
                     <h2>BMFT's Vision</h2>
                     <p>
-                        A world where the Belize Maya Forest serves as a model for sustainable conservation, ensuring the health and well-being of our planet and its inhabitants.
+                        To be a global benchmark for effective and lasting conservation.  
                     </p>
                 </div>
             </section>
