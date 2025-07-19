@@ -22,6 +22,9 @@ const WhatWeDoPage = () => {
       <p>
       The Belize Maya Forest stands as the final significant expanse of broadleaf forest that links to the Selva Maya Forest, serving as a vital corridor for biodiversity and a rejuvenating ecosystem that supports essential watersheds like the Rio Hondo River. This remarkable forest not only sustains a rich variety of life but also offers crucial ecological benefits to surrounding communities, including the provision of clean air and water, fertile soils, and essential pollinators. At the core of our work is the commitment to preserving a vibrant and diverse forest, ensuring it remains protected for the benefit of all Belizeans. 
       </p> 
+      <p>
+      The Belize Maya Forest Trust recognized the importance of a comprehensive strategic plan to steer its programs and operations effectively. To achieve this, it initiated a yearlong process of engaging stakeholders and fostering participation, ultimately leading to the creation of a Conservation Action Plan (CAP). This CAP outlines various strategies aimed at enhancing conservation goals and mitigating threats to these objectives within the BMF and its adjacent areas. 
+      </p>
          </section>
     
       
