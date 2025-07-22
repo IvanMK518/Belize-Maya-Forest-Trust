@@ -60,7 +60,7 @@ const Fireman = () => {
             <section className={styles.descriptionSection}>
                 <h2 className={styles.sectionTitle}>Project Goals</h2>
                 <p className={styles.descriptionText}>
-                    Effective fire prevention is crucial for protecting the diverse ecosystems within the Belize Maya Forest. By implementing proactive measures and strategies, such as controlled burns and firebreaks, we can reduce the risk of devastating wildfires. Education and community involvement also play a vital role in ensuring that the local population understands and supports fire prevention efforts. Continued research and innovation in fire management techniques are essential for adapting to changing environmental conditions and safeguarding our natural resources.
+                    In recent years, the occurrence of wildfires has posed a significant threat to this ecosystem, leading the ranger team to enhance their knowledge and skills in fire suppression and prevention strategies. Through training and experience, they have developed effective mechanisms to combat wildfires, and actively participate in fire safety awareness, ensuring the continued protection of this invaluable forest and its diverse inhabitants and knowledge sharing with stakeholder communities and partners. The ongoing efforts of the protection team are crucial in maintaining the ecological integrity and cultural heritage of the Belize Maya Forest. 
                 </p>
             </section>
             <section className={styles.imageGallery}>
