@@ -46,7 +46,7 @@ const Patrols = () => {
                     <div className={styles.textContainer}>
                         <h2 className={styles.introText}>What Are Patrols?</h2>
                         <p>
-                            Patrols are essential for monitoring, protecting, and preserving wildlife and natural resources.
+                            The establishment of a protection team tasked with conducting routine patrols is essential for the preservation of the BMF's natural resources and the prevention and detection of unlawful activities. These patrols involve traversing extensive distances on foot through the jungle, regardless of weather conditions, to ensure the conservation of the area's ecological assets. Rangers encounter numerous challenges in their line of duty; therefore, the organization equips them with the necessary tools and provides comprehensive training. In addition to their patrolling responsibilities, the BMF rangers engage in data collection utilizing the Spatial Monitoring and Reporting Tool (SMART) alongside advanced technologies such as drones and satellite imagery. The experience of patrolling the BMF is not only visually stunning but also embodies courage and a profound connection with nature. 
                             ...
                         </p>
                     </div>
