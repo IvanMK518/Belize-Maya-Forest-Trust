@@ -48,7 +48,7 @@ const Nav = ({ isVisible, currentPage }) => {
                             <div className={styles.column}>
                                 <a href="/protbio">Protecting Biodiversity</a>
                                 <a href="/stewards2">Building Stewardship</a>
-                                <a href="#">Publications</a>
+                                <a href="#">News</a>
                             </div>
                         </div>
                     </div>
